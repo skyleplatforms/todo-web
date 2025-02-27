@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="todo.css">
+  <title>To-Do List</title>
+</head>
+<body>
+  <!--
+  ALGORITHM
+  .input an item in the input box
+  .once the button is clicked the item is added to the array 
+  .display into the console
+  .then display the item on the screen
+  -->
+  <div class="index">
+  <div class="heading-css">TO-DO LIST WEB</div> 
+  <div class="body-centered">
+  <div class="elements-inputs">
+  <input placeholder="To-do list" class="js-input-text" onkeydown="x(event)">
+  <input type="time" class="js-time-input" onkeydown="x(event)">
+  <input type="date" class="js-date-input" onkeydown="x(event)">
+  <button class="css-add-button" onclick="
+   oneTime();
+  "
+   >ADD</button>
+  <div class="js-deleteall-buttons"></div>
+  </div>
+  <div class="selectors">
+    <div class="js-selector"></div>
+  <div class="js-selector-error"></div>
+  </div>
+</div>
+
+
+</div>
+  <script src="to-do.js"></script>
+</body>
+</html>
