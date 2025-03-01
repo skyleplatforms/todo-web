@@ -74,7 +74,6 @@ for (let i = 0; i < t.length; i++) {
 
 }; 
   p.innerHTML = `${a}`;
-  console.log(t);
 }
 
 
@@ -128,7 +127,6 @@ e.innerHTML = '';
   ud = '';
 
 } else {fError();}
-console.log(t);
 
 present();
 
@@ -138,5 +136,4 @@ respond();
 
 renderHTML();
 respond();
-console.log(t);
 
