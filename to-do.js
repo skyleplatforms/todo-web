@@ -101,7 +101,6 @@ function oneTime() {
   dc = dd.value;
   r = c.value;
 
-  console.log(r);
 if(r !== '' && ud === '') {
     t.push({
       n: r,
